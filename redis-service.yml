@@ -6,6 +6,7 @@ metadata:
     name: redis-service
     app: guestbook-app
 spec:
+    type: LoadBalancer
     ports:
     - port: 6379
         targetPort: 6379
