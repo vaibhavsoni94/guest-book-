@@ -5,7 +5,7 @@ metadata:
   labels:
     name: redis-service
     app: guestbook-app
-  spec:
+spec:
     ports:
     - port: 6379
         targetPort: 6379
