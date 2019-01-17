@@ -5,7 +5,7 @@ metadata:
   labels:
     name: guestbook-service
     app: guestbook-app
-  spec:
+spec:
     type: LoadBalancer
     ports:
     - port: 80
