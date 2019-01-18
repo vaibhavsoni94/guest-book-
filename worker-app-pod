@@ -3,7 +3,7 @@ kind: Pod
 metadata:
   name: worker-app-pod
   labels:
-    name: worker-app-pod
+    name: guestbook-app-pod
     app: guestbook-app
 spec:
   containers:
