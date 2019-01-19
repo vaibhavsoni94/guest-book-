@@ -6,6 +6,7 @@ metadata:
     app: guestbook
     tier: frontend
 spec:
+  type: Loadbalancer
   ports:
   - port: 80
   selector:
