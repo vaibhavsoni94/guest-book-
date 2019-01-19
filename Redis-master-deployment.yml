@@ -20,6 +20,6 @@ spec:
     spec:
       containers:
       - name: master
-        image: k8s.gcr.io/redis:e2e  # or just image: redis
+        image: k8s.gcr.io/redis:e2e
         ports:
         - containerPort: 6379
